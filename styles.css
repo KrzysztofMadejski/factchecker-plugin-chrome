@@ -1,0 +1,18 @@
+.tom-truth {
+	border: #6aba43 3px dashed;
+	padding: 5px;
+}
+
+.tom-truth .tom-marker {
+	color: #6aba43;	
+}
+
+.tom-truth .tom-marker::before {
+    content: " ";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: -5px 5px 0 0;
+    vertical-align: middle;
+    background: url("chrome-extension://__MSG_@@extension_id__/images/ico-yes-enabled.png") 0 0 no-repeat;
+}
