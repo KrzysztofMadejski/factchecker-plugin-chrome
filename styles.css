@@ -1,18 +1,48 @@
-.tom-truth {
-	border: #6aba43 3px dashed;
+img.tom-img {
+    width: 20px !important;
+    height: 20px !important;
+}
+
+.tom-true {
+    background-color: #6aba43;
+    color: white;
 	padding: 5px;
 }
 
-.tom-truth .tom-marker {
+.tom-true-marker {
 	color: #6aba43;	
 }
 
-.tom-truth .tom-marker::before {
-    content: " ";
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    margin: -5px 5px 0 0;
-    vertical-align: middle;
-    background: url("chrome-extension://__MSG_@@extension_id__/images/ico-yes-enabled.png") 0 0 no-repeat;
+
+.tom-false {
+    background-color: #e84f2b;
+    color: white;
+	padding: 5px;
 }
+
+.tom-false-marker {
+	color: #e84f2b;
+}
+
+
+.tom-lie {
+    background-color: #febc1e;
+    color: white;
+	padding: 5px;
+}
+
+.tom-lie-marker {
+	color: #febc1e;
+}
+
+
+.tom-unverifiable {
+    background-color: #229ee5;
+    color: white;
+	padding: 5px;
+}
+
+.tom-unverifiable-marker {
+	color: #229ee5;
+}
+
